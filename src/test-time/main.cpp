@@ -23,6 +23,9 @@ TEST(time, GetSystemTime)
              stUTC.wHour, stUTC.wMinute, stUTC.wSecond,
              stUTC.wMilliseconds, stUTC.wDayOfWeek);
     wprintf(L"%s\n\n", chBuf);
+
+
+    
 }
 
 TEST(time, GetLocalTime)
@@ -37,7 +40,10 @@ TEST(time, GetLocalTime)
              stLocal.wYear, stLocal.wMonth, stLocal.wDay,
              stLocal.wHour, stLocal.wMinute, stLocal.wSecond,
              stLocal.wMilliseconds, stLocal.wDayOfWeek);
-    wprintf(L"%s\n\n", chBuf);
+    wprintf(L"%s\n", chBuf);
+
+ 
+
 }
 
 
